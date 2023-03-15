@@ -53,6 +53,7 @@
          flex-col
          gap-4
          absolute
+         z-40
          right-0
          left-0
          top-16
@@ -139,6 +140,101 @@
          </div>
         </div>
     </nav>
+    <header class="relative pt-16 md:pt-24 lg:pt-48">
+      <div class="
+      absolute
+      inset-0
+      bottom-8
+      md:bottom-24
+      xl:bottom-32
+      -z-10
+      bg-gradient-to-b
+      from-amber-400
+      to-amber-600
+      "></div>
+      <div class="container
+      mx-auto
+      grid
+      grid-rows-1
+      place-items-end
+      px-2
+      ">
+        <img src="./assets/couch.png" class="
+        row-start-1
+        row-end-2
+        col-start-1
+        col-end-2
+        mx-auto
+        " alt="Coach">
+
+        <img src="./assets/app.svg" class="
+        row-start-1
+        row-end-2
+        col-start-1
+        col-end-2
+        mx-auto
+        w-40
+        sm:w-52
+        md:w-64
+        lg:w-72
+        " alt="app">
+      </div>
+    </header>
+
+    <main class="
+    grid
+    gap-12
+    sm:gap-16
+    md:gap-24
+    lg:gap-32
+    px-8
+    overflow-hidden
+    ">
+    <a href="#" class="
+    py-2
+    px-6
+    bg-amber-400
+    dark:text-neutral-900
+    mx-auto
+    my-12
+    flex
+    gap-2
+    shadow-xl
+    hover:shadow-none
+    transition-shadow
+    focus:outline-none
+    focus-visible:ring-4
+    ring-neutral-900
+    rounded-md
+    ring-offset-4
+    ring-offset-white
+    dark:ring-amber-400
+    dark:ring-offset-neutral-800
+    
+    ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
+      </svg>
+      
+      <span>Download The App</span>
+    </a>
+
+    <section aria-labelledby="qualities" class="relative">
+      <h2 id="qualities" class="sr-only"> Our Qualities</h2>
+      <div class="container">
+        <div class="grid">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-24 h-24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          </div>
+          <h3>Safe</h3>
+          <p>Our products are secure and private out-of-the-box</p>
+        </div>
+      </div>
+    </section>
+
+    </main>
     <script type="module" src="/main.js"></script>
 </body>
 
