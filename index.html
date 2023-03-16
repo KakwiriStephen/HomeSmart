@@ -381,24 +381,176 @@
             <span>Download The App</span>
           </a>
 
-          <img src="./assets/app.svg" alt="app" width="240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16">
+          <img src="./assets/app.svg" alt="app" width="240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs">
 
         </div>
-        <form class="relative
-        border-8
-        border-neutral-900
-        p-6
-        rounded-lg
-        grid
-        gap-8
-        md:flex-1
-        my-4
-        md:my-12
-        lg:my-16
-        bg-white
+        <form 
+        class="
+          relative
+          border-8
+          border-neutral-900
+          p-6
+          rounded-lg
+          grid
+          gap-8
+          md:flex-1
+          md:max-w-lg
+          my-4
+          md:my-12
+          lg:my-16
+          bg-white
+          dark:bg-neutral-800
+          w-full
+      ">
+    <h2 id="contact" class="text-3xl font-bold">Let’s Connect</h2>
+    <div class="relative">
+      <input type="text" id="name" 
+        class="
+          peer
+          form-input
+          w-full
+          border-4
+          border-amber-400
+          rounded-md
+          focus:ring-4
+          dark:focus:ring-offset-2
+          focus:ring-amber-400
+          focus:border-amber-400
+          focus:outline-none
+          dark:bg-amber-400
+          dark:text-neutral-900
+          placeholder-transparent
+      " 
+      placeholder="Your Name"
+      >
+      <label for="name" 
+      class="
+        text-neutral-500
+        text-sm
+        font-bold
+        uppercase
+        absolute
+        -top-4
+        left-2
+        -translate-y-1/2
+        transition-all
+        peer-placeholder-shown:left-4
+        peer-placeholder-shown:top-1/2
+        peer-placeholder-shown:text-neutral-900
+        peer-focus:-top-4
+        peer-focus:left-2
+        peer-focus:text-neutral-600
+        dark:peer-focus:text-neutral-300
+      ">
+        Your Name
+      </label>
+    </div>
+    <div class="relative">
+      <input type="email" id="email" 
+        class="
+          peer
+          form-input
+          w-full
+          border-4
+          border-amber-400
+          rounded-md
+          focus:ring-4
+          dark:focus:ring-offset-2
+          focus:ring-amber-400
+          focus:border-amber-400
+          focus:outline-none
+          dark:bg-amber-400
+          dark:text-neutral-900
+          placeholder-transparent
+        " 
+      placeholder="Your Email">
+      <label for="email" 
+        class="
+        text-neutral-500
+        text-sm
+        font-bold
+        uppercase
+        absolute
+        -top-4
+        left-2
+        -translate-y-1/2
+        transition-all
+        peer-placeholder-shown:left-4
+        peer-placeholder-shown:top-1/2
+        peer-placeholder-shown:text-neutral-900
+        peer-focus:-top-4
+        peer-focus:left-2
+        peer-focus:text-neutral-600
+        dark:peer-focus:text-neutral-300
+      ">
+      Your Email
+      </label>
+    </div>
+    <div class="relative">
+      <textarea name="content" id="content" cols="20" rows="5" 
+      class="
+        peer
+        form-textarea
+        resize-none
         w-full
-
-        "></form>
+        border-4
+        border-amber-400
+        rounded-md
+        focus:ring-4
+        dark:focus:ring-offset-2
+        focus:ring-amber-400
+        focus:border-amber-400
+        focus:outline-none
+        dark:bg-amber-400
+        dark:text-neutral-900
+        placeholder-transparent
+      " 
+      placeholder="How can we help?"></textarea>
+      <label for="content" 
+        class="
+          text-neutral-500
+          text-sm
+          font-bold
+          uppercase
+          absolute
+          -top-3
+          left-2
+          -translate-y-1/2
+          transition-all
+          peer-placeholder-shown:left-4
+          peer-placeholder-shown:top-6
+          peer-placeholder-shown:text-neutral-900
+          peer-focus:-top-4
+          peer-focus:left-2
+          peer-focus:text-neutral-600
+          dark:peer-focus:text-neutral-300
+        ">
+          How can we help?
+      </label>
+    </div>
+    <a role="menuitem" 
+      class="
+        py-2
+        px-6
+        bg-neutral-900
+        text-white
+        w-max
+        shadow-xl
+        hover:shadow-none
+        transition-shadow
+        focus:outline-none
+        focus-visible:ring-4
+        ring-neutral-900
+        rounded-md
+        ring-offset-4
+        ring-offset-white
+        dark:ring-offset-amber-400
+      " 
+      href="/"
+      >
+      Sign Up
+      </a>
+    </form>
       </div>
     </section>
     <script type="module" src="/main.js"></script>
